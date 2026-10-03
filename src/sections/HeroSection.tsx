@@ -2,7 +2,8 @@ import React from 'react'
 import FadeIn from '../components/FadeIn'
 import ContactButton from '../components/ContactButton'
 import Magnet from '../components/Magnet'
-import { Linkedin, Github, FileText } from 'lucide-react'
+import { FileText } from 'lucide-react'
+import { Linkedin, Github } from '../components/SocialIcons'
 
 const navLinks = [
   { label: 'About', href: '#about' },

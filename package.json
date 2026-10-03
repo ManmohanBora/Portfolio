@@ -20,7 +20,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
     "framer-motion": "^12.43.0",
-    "lucide-react": "^0.344.0",
+    "lucide-react": "^1.51.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   }

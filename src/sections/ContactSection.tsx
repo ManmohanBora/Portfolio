@@ -1,7 +1,8 @@
 import React from 'react'
 import FadeIn from '../components/FadeIn'
 import ContactButton from '../components/ContactButton'
-import { Linkedin, Github, ArrowUpRight, Mail, Sparkles, MapPin, FileText, Phone } from 'lucide-react'
+import { ArrowUpRight, Mail, Sparkles, MapPin, FileText, Phone } from 'lucide-react'
+import { Linkedin, Github } from '../components/SocialIcons'
 
 const ContactSection: React.FC = () => {
   return (
