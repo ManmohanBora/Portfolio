@@ -14,43 +14,45 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text, className = '', style
     offset: ['start 0.8', 'end 0.2'],
   })
 
-  const chars = text.split('')
+  const words = text.split(' ')
 
   return (
     <p ref={ref} className={`relative ${className}`} style={style}>
-      {chars.map((char, i) => (
-        <AnimatedChar
-          key={i}
-          char={char}
-          index={i}
-          total={chars.length}
-          progress={scrollYProgress}
-        />
+      {words.map((word, i) => (
+        <React.Fragment key={i}>
+          <AnimatedWord
+            word={word}
+            index={i}
+            total={words.length}
+            progress={scrollYProgress}
+          />
+          {i < words.length - 1 && ' '}
+        </React.Fragment>
       ))}
     </p>
   )
 }
 
-interface AnimatedCharProps {
-  char: string
+interface AnimatedWordProps {
+  word: string
   index: number
   total: number
   progress: any
 }
 
-const AnimatedChar: React.FC<AnimatedCharProps> = ({ char, index, total, progress }) => {
+const AnimatedWord: React.FC<AnimatedWordProps> = ({ word, index, total, progress }) => {
   const start = index / total
   const end = (index + 1) / total
   const opacity = useTransform(progress, [start, end], [0.2, 1])
 
   return (
     <span className="relative inline-block">
-      <span className="invisible">{char === ' ' ? '\u00A0' : char}</span>
+      <span className="invisible">{word}</span>
       <motion.span
-        className="absolute left-0 top-0"
+        className="absolute left-0 top-0 whitespace-nowrap"
         style={{ opacity }}
       >
-        {char === ' ' ? '\u00A0' : char}
+        {word}
       </motion.span>
     </span>
   )
