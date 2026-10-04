@@ -98,7 +98,7 @@ const ResumeSection: React.FC = () => {
             <p
               className="text-[#D7E2EA]/70 max-w-2xl leading-relaxed text-sm sm:text-base md:text-lg mb-8"
             >
-              Machine Learning intern candidate with hands-on experience building end-to-end ML pipelines,
+              Machine Learning Intern candidate with hands-on experience building end-to-end ML pipelines,
               feature engineering, and model deployment. Currently pursuing M.Sc. in Data Science at MIT WPU.
             </p>
           </FadeIn>

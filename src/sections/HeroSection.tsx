@@ -70,7 +70,7 @@ const HeroSection: React.FC = () => {
         <h1
           className="hero-heading font-black uppercase tracking-tighter leading-none whitespace-nowrap text-center text-[9vw] sm:text-[9.8vw] md:text-[10.4vw] lg:text-[11vw] px-4 md:px-8"
         >
-          Hi, i&apos;m manmohan
+          Hi, I&apos;m Manmohan
         </h1>
       </FadeIn>
 
@@ -102,7 +102,7 @@ const HeroSection: React.FC = () => {
             className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[210px] sm:max-w-[280px] md:max-w-[340px]"
             style={{ fontSize: 'clamp(0.75rem, 1.3vw, 1.35rem)' }}
           >
-            a backend & machine learning engineer driven by architecting robust scalable systems and intelligent ai pipelines
+            A Backend & Machine Learning Engineer driven by architecting robust, scalable systems and intelligent AI pipelines.
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>
