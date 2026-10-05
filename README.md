@@ -21,7 +21,7 @@ A modern, dark-themed, interactive portfolio featuring:
   - [Career Copilot](https://github.com/ManmohanBora/Career-Copilot) — NLP Resume Parsing & Skill Benchmarking System
   - [Phishing Threat Detector](https://github.com/ManmohanBora/Phishing-Email) — Supervised ML Email Security Classifier
 - **Integrated Resume / CV**: Interactive credential viewer with verified education (MIT WPU, Indus Institute), certifications (AWS Academy), publications (BITS-26), and one-click official PDF download.
-- **Direct Connect**: Integrated LinkedIn ([/in/manmohan-bora](https://www.linkedin.com/in/manmohan-bora)), GitHub ([@ManmohanBora](https://github.com/ManmohanBora)), and direct contact channels..
+- **Direct Connect**: Integrated LinkedIn ([/in/manmohan-bora](https://www.linkedin.com/in/manmohan-bora)), GitHub ([@ManmohanBora](https://github.com/ManmohanBora)), and direct contact channels.
 
 ---
 
