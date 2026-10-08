@@ -13,7 +13,7 @@
 ## 🌟 Overview
 
 A modern, dark-themed, interactive portfolio featuring:
-- **Photorealistic Avatar**: Seamlessly blended Metahuman digital double with interactive magnetic cursor parallax.
+- **Photorealistic Avatar**: Seamlessly blended Metahuman digital double with interactive magnetic cursor parallax..
 - **Dynamic Marquee Showcase**: Continuous dual-row visualization of machine learning ROC curves, clinical AI telemetry, Power BI sales dashboards, and deep learning training loss metrics.
 - **Specialized Services**: Highlighting Full-Stack Development, Machine Learning Solutions, Cloud & Backend Architecture, Cybersecurity Threat Detection, and Data Engineering.
 - **Featured Projects**:
